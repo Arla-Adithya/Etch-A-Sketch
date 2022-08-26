@@ -1,0 +1,31 @@
+:root {
+    --var-row: 1;
+    --var-col: 1;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    
+}
+#container {
+    /* width: 100vw;
+    height: 100vw; */
+    display:grid;
+    grid-template-columns: repeat(var(--var-col), 1fr);
+    grid-template-rows: repeat(var(--var-row), 1fr);
+    height: auto;
+    width: 500px;
+    height: 500px;
+   
+}
+
+.content{
+
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 0em;
+    margin: 0;
+    
+}
